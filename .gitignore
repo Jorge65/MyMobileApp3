@@ -11,5 +11,10 @@ npm-debug.*
 *.orig.*
 web-build/
 
+# backend
+backend-rate-repository-api/database.sqlite
+backend-rate-repository-api/.env
+backend-rate-repository-api/node_modules
+
 # macOS
 .DS_Store
