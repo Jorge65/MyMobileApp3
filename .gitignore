@@ -1,5 +1,6 @@
 node_modules/
 .expo/
+.env
 
 dist/
 npm-debug.*
@@ -10,6 +11,7 @@ npm-debug.*
 *.mobileprovision
 *.orig.*
 web-build/
+
 
 # backend
 backend-rate-repository-api/database.sqlite

@@ -5,11 +5,15 @@ This repo includes the implemented exercises for the FullStackOpen ReactNative c
 
 Part c: Communicating with server:
 - Exercise 10.11: fetching repositories with Apollo Client
+- Exercise 10.12: environment variables
 - 
 - 
 - 
 - 
 - 
+
+The backend can be found in the subdirectory
+- backend-rate-repository-api
 
 Tested environments:
 - Real device: iPadPro 11 - iPadOS 16.4.1
