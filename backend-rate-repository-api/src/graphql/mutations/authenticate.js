@@ -43,13 +43,13 @@ export const resolvers = {
       const user = await User.query().findOne({ username });
 
       if (!user) {
-        throw new UserInputError('Invalid username or password');
+        throw new UserInputError('Invalid username');
       }
 
       const match = await bcrypt.compare(password, user.password);
 
       if (!match) {
-        throw new UserInputError('Invalid username or password');
+        throw new UserInputError('Invalid password');
       }
 
       return {
