@@ -19,7 +19,6 @@ const RepositoryList = () => {
     : [];
 
   //console.log("...repositoryNodes...", repositoryNodes)
-  console.log("...jore testaa...")
   return (
     <FlatList
       data={repositoryNodes}

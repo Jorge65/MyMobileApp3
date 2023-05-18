@@ -19,7 +19,7 @@ const useSignIn = () => {
     apolloClient.resetStore();
     return data
   };
-  return [signIn];
+  return [signIn, result];
 
 };
 
