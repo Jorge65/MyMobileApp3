@@ -6,11 +6,10 @@ This repo includes the implemented exercises for the FullStackOpen ReactNative c
 Part c: Communicating with server:
 - Exercise 10.11: fetching repositories with Apollo Client
 - Exercise 10.12: environment variables
-- 
-- 
-- 
-- 
-- 
+- Exercise 10.13: the sign in form mutation
+- Exercise 10.14: storing the access token step1
+- Exercise 10.15: storing the access token step2
+- Exercise 10.16: sign out
 
 The backend can be found in the subdirectory
 - backend-rate-repository-api
